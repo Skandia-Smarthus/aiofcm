@@ -19,6 +19,8 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
         'Development Status :: 5 - Production/Stable',
     ],
     license='Apache License, Version 2.0',
@@ -27,6 +29,6 @@ setup(
     url='https://github.com/Fatal1ty/aiofcm',
     packages=find_packages(exclude=('tests',)),
     install_requires=[
-        'aioxmpp~=0.10',
+        'aioxmpp~=0.12',
     ]
 )
